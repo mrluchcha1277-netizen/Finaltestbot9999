@@ -1,3 +1,4 @@
+from typing import Optional
 import logging
 import random
 import re
@@ -69,7 +70,6 @@ def bot_is_on(context: ContextTypes.DEFAULT_TYPE) -> bool:
 
 def get_current_giveaway(context: ContextTypes.DEFAULT_TYPE):
     return context.bot_data.get("current_giveaway")
-
 
 def parse_duration_to_seconds(text: str) -> Optional[int]:
     text = text.strip().lower()
