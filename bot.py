@@ -71,7 +71,7 @@ def get_current_giveaway(context: ContextTypes.DEFAULT_TYPE):
     return context.bot_data.get("current_giveaway")
 
 
-def parse_duration_to_seconds(text: str) -> int | None:
+def parse_duration_to_seconds(text: str) -> Optional[int]:
     text = text.strip().lower()
     m = re.fullmatch(r"(\d+)(s|m|h|day|days)", text)
     if not m:
