@@ -24,7 +24,7 @@ from telegram.ext import (
 
 # ====================== CONFIG ======================
 
-BOT_TOKEN = "PUT_YOUR_BOT_TOKEN_HERE"       # <-- এখানে তোমার BOT TOKEN বসাবে
+BOT_TOKEN = "8358046522:AAFWk7xSmfPCZCcS8YxCGQ5GsaUIE6ivg7E"       # <-- এখানে তোমার BOT TOKEN বসাবে
 SUPER_ADMIN_USERNAME = "MinexxProo"         # <-- শুধু username ( @ ছাড়া )
 
 ROTATE_FRAMES = ["✨", "✧", "✦", "✺"]       # title আইকন ঘোরানোর জন্য
